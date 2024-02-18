@@ -5,7 +5,7 @@ Revisit OO concepts with Enhanced Transaction Logging
 
 Requirements:
 
-###**Account Class:**
+## **Account Class:**
 
 **Private Variables:**
 - `accountId`: Unique identifier for the account.
@@ -36,7 +36,7 @@ Requirements:
 - **getBalance(this):**
   - Retrieves the current account balance.
 
-###**TransactionManager (Singleton Class):**
+## **TransactionManager (Singleton Class):**
 
 **Private Variables:**
 - `instance`: An object responsible for logging transactions.
