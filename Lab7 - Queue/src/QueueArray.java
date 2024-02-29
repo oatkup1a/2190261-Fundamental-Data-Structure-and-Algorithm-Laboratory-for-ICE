@@ -84,8 +84,7 @@ public class QueueArray implements MyQueue {
 	public void reverse() throws EmptyQueueException {
 		if(isEmpty())
 			return;
-		// 0 0 0 1 2 3
-		// 0 0 0 0 0 0 3 2 1
+		
 		QueueArray temp = new QueueArray(theArray.length);
 		while (!isEmpty()) {
 			temp.insertLast(this.back());
